@@ -105,11 +105,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"> Will be added later</a>
+## 🚀 Live Demo <a name="live-demo"> https://sajibarafatsiddiqui.github.io/project_leaderboard/dist/</a>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](
+- [Live Demo Link](https://sajibarafatsiddiqui.github.io/project_leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
