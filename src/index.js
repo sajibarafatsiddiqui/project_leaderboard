@@ -1,3 +1,4 @@
+import './style.css';
 import axios from "axios"
 
 
@@ -19,18 +20,14 @@ try {
 
 }
 
-
- 
- 
- 
 const apiCall = async (sentName,sentScore) =>{
 let getId = JSON.parse(localStorage.getItem('id')) 
 if (!getId){
     getId = await generateId()
     localStorage.setItem('id',JSON.stringify(getId))
-    console.log(getId)
+    
 }
-console.log(getId)
+
 const endpoint =await "games/"+getId+"/scores/"   
 const postData ={"user":sentName,"score":sentScore}
    try{ 
@@ -58,6 +55,7 @@ const sendButton = document.getElementById("send-btn")
 sendButton.addEventListener('click',sentData)
 
 const showData= (arr)=> {
+localStorage.setItem('leads',JSON.stringify(arr))
 const lbContainer = document.getElementById('leaderboard')
 lbContainer.innerHTML=''
 arr.forEach(elm =>{
@@ -72,7 +70,6 @@ const getData = async (e) => {
 if (!getId){
     getId = await generateId()
     localStorage.setItem('id',JSON.stringify(getId))
-    console.log(getId)
 }
 const endpoint =await "games/"+getId+"/scores/"
 try{ 
@@ -86,3 +83,5 @@ try{
 
 const refreshButton = document.getElementById("get-btn")
 refreshButton.addEventListener('click',getData)
+
+showData(JSON.parse(localStorage.getItem('leads')))
