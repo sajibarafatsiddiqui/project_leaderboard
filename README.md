@@ -1,24 +1,7 @@
 <a name="readme-top"></a>
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
 
-OPTIONAL SECTIONS:
-- FAQ
--->
-
-<div align="center">
-
+<div align
   <h3><b>README</b></h3>
 
 </div>
