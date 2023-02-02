@@ -1,5 +1,5 @@
 body {
-  margin:auto;
+  margin: auto;
 }
 
 header {
@@ -8,28 +8,25 @@ header {
 
 #mainContainer {
   display: flex;
-  width:100vw;
-  margin:auto;
+  width: 100vw;
   justify-content: space-evenly;
-  flex:1;
-  margin:0;
-  padding:0
-
+  flex: 1;
+  margin: 0;
+  padding: 0;
 }
 
-#showScoreHeader{
-    display:flex;
-    width: 20vw;
-    align-items: center;
-    justify-content: space-around;
-    flex:1;
-    padding:2rem 0 0;
-    margin:0   
-
+#showScoreHeader {
+  display: flex;
+  width: 20vw;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  padding: 2rem 0 0;
+  margin: 0;
 }
 
-.scoreTitle{
-    margin:0
+.scoreTitle {
+  margin: 0;
 }
 
 #leaderboardContainer {
@@ -37,29 +34,29 @@ header {
   align-items: center;
 }
 
-#leaderboard {  
+#leaderboard {
   list-style: none;
   border: 0.2rem solid black;
   place-items: center;
-  padding:0
-} 
+  padding: 0;
+}
 
 li:nth-child(odd) {
   background: white;
-  padding-left:0.4rem;
+  padding-left: 0.4rem;
 }
 
 li:nth-child(even) {
   background: grey;
-  padding-left:0.4rem;
+  padding-left: 0.4rem;
 }
 
 input {
-    border:0.1rem solid black;
-    font-weight: 100;
+  border: 0.1rem solid black;
+  font-weight: 100;
 }
 
 button {
-    border:0.1rem solid black;
-    font-weight: bold;
+  border: 0.1rem solid black;
+  font-weight: bold;
 }
