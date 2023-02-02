@@ -1,5 +1,5 @@
 body {
-  background-color: bisque;
+  margin:auto;
 }
 
 header {
@@ -8,26 +8,48 @@ header {
 
 #mainContainer {
   display: flex;
-  justify-content: space-around;
+  width:100vw;
+  margin:auto;
+  justify-content: space-evenly;
+  flex:1;
+  margin:0;
+  padding:0
+
+}
+
+#showScoreHeader{
+    display:flex;
+    width: 20vw;
+    align-items: center;
+    justify-content: space-around;
+    flex:1;
+    padding:2rem 0 0;
+    margin:0   
+
+}
+
+.scoreTitle{
+    margin:0
 }
 
 #leaderboardContainer {
+  text-align: left;
   align-items: center;
 }
 
-#leaderboard {
+#leaderboard {  
   list-style: none;
-  border: 5px solid black;
-  padding: 0;
+  border: 0.2rem solid black;
   place-items: center;
-}
+  padding:0
+} 
 
 li:nth-child(odd) {
-  width: 100%;
   background: white;
+  padding-left:0.4rem;
 }
 
 li:nth-child(even) {
-  width: 100%;
   background: grey;
+  padding-left:0.4rem;
 }
