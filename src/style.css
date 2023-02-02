@@ -53,3 +53,13 @@ li:nth-child(even) {
   background: grey;
   padding-left:0.4rem;
 }
+
+input {
+    border:0.1rem solid black;
+    font-weight: 100;
+}
+
+button {
+    border:0.1rem solid black;
+    font-weight: 100;
+}
