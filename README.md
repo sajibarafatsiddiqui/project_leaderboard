@@ -1,11 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
 REQUIRED SECTIONS:
 - Table of Contents
 - About the Project
@@ -21,15 +15,11 @@ REQUIRED SECTIONS:
 
 OPTIONAL SECTIONS:
 - FAQ
-
-After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  
 
-  <h3><b>Leader Board</b></h3>
+  <h3><b>README</b></h3>
 
 </div>
 
@@ -51,15 +41,17 @@ After you're finished please remove all the comments and instructions!
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [LeaderBoard] <a name="about-project"></a>
+# 📖 [project_leaderboard] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[LeaderBoard]** is a basic project shows how to implement api using javascript.
+**[project_leaderboard]** is a basic project shows how to implement api using javascript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -97,17 +89,15 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[Configured_Wevpack]**
-- **[Configured_linters]**
-- **[Configured_basic_leaderboard]**
+- **[key_feature_1]** Configured_Wevpack & linters
+- **[key_feature_2]** Implementation of API
+- **[key_feature_3]** Configured_basic_leaderboard using API 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"> https://sajibarafatsiddiqui.github.io/project_leaderboard/dist/</a>
-
-> Add a link to your deployed project.
+## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://sajibarafatsiddiqui.github.io/project_leaderboard/dist/)
 
@@ -117,19 +107,14 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
+```Node
+   VS Code or any other editor
 ```
  -->
 
@@ -137,22 +122,21 @@ Example command:
 
 Clone this repository to your desired folder:
 
-
-
 ```sh
-  cd my-folder
-   git clone https://github.com/sajibarafatsiddiqui/project_leaderboard.git
+  cd my-project
+   git clone https://github.com/sajibarafatsiddiqui/project_leaderboard.git   
 ```
-
+--->
 
 ### Install
 
 Install this project with:
 
+<!--
+Example command:
 
 ```sh
-  cd my-project
-   git clone https://github.com/sajibarafatsiddiqui/project_leaderboard.git
+   cd my-project
    npm init -y
    npm ci
    
@@ -162,42 +146,29 @@ Install this project with:
 ### Usage
 
 To run the project, execute the following command:
-npm start
-
-### Run tests
-
-To run tests, run the following command:
 
 <!--
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+   npm run build
+   npm start
 ```
 --->
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
+
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
 
 👤 **Sajib Arafat Siddiqui**
 
 - GitHub: [@sajibarafatsiddiqui](https://github.com/sajibarafatsiddiqui)
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -208,9 +179,35 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[will_apply_api]**
-- [ ] **[populate_data_through_api]**
-- [ ] **[will_apply_promise]**
+- [ ] **[new_feature_1]**will add database
+- [ ] **[new_feature_2]**will add backend server
+- [ ] **[new_feature_3]**will make some test
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please give it a star. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank all my morning session teammates who gave me suggestions regarding this project. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
