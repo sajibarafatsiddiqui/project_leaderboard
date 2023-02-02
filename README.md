@@ -96,29 +96,30 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-```Node
+```  
+  Node
    VS Code or any other editor
+   
 ```
- -->
+ 
 
 ### Setup
-
 Clone this repository to your desired folder:
 
-```sh
+```
+  sh
   cd my-project
    git clone https://github.com/sajibarafatsiddiqui/project_leaderboard.git   
+
 ```
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
+```
+   sh
    cd my-project
    npm init -y
    npm ci
@@ -130,24 +131,19 @@ Example command:
 
 To run the project, execute the following command:
 
-<!--
-Example command:
 
-```sh
+```
+   sh
    npm run build
    npm start
 ```
---->
 
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Sajib Arafat Siddiqui**
 
@@ -159,8 +155,6 @@ Example command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[new_feature_1]**will add database
 - [ ] **[new_feature_2]**will add backend server
