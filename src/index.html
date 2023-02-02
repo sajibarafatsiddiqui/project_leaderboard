@@ -11,28 +11,27 @@
         <h1>LeaderBoard</h1>
     </header>
     <section>
+<div id="mainContainer">
 <div>
-        <div>
+ <div>   
     <h2>Recent Scores</h2>
-    <button>Refresh</button>
+    <button id="get-btn">Refresh</button>
 </div>
-<div>
-    <ul>
-        <li>Name:100</li>
-        <li>Name:60</li>
-        <li>Name:90</li>
-        <li>Name:80</li>
-        <li>Name:75</li>
-        <li>Name:82</li>
-        <li>Name:92</li>
+<div id="leaderboardContainer">
+    <ul id="leaderboard">
+    
     </ul>
 </div>
 </div>
 <div>
     <h2>Add your score</h2>
-    <input placeholder="Your Name" name="name" type="text" />
-    <input placeholder="Your Score" name="score" type="text" />
-    <button type="submit">Submit</button>
+    <form>
+     
+    <input placeholder="Your Name" id="name" name="name" type="text"><br><br>
+    <input placeholder="Your Score" id ="score" name="score" type="text"><br><br>
+    <button id ="send-btn" type="submit">Submit</button>
+</form>
+</div>
 </div>
     </section>
     <script src="main.js"></script>

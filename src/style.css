@@ -1,3 +1,33 @@
 body {
   background-color: bisque;
 }
+
+header {
+  text-align: center;
+}
+
+#mainContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#leaderboardContainer {
+  align-items: center;
+}
+
+#leaderboard {
+  list-style: none;
+  border: 5px solid black;
+  padding: 0;
+  place-items: center;
+}
+
+li:nth-child(odd) {
+  width: 100%;
+  background: white;
+}
+
+li:nth-child(even) {
+  width: 100%;
+  background: grey;
+}
