@@ -53,11 +53,13 @@ const showData = (arr) => {
   localStorage.setItem('leads', JSON.stringify(arr));
   const lbContainer = document.getElementById('leaderboard');
   lbContainer.innerHTML = '';
+  if (arr.length > 0){
   arr.forEach((elm) => {
     const lead = document.createElement('li');
     lead.innerHTML = `${elm.user}  :  ${elm.score}`;
     lbContainer.appendChild(lead);
   });
+}
 };
 const getData = async (e) => {
   e.preventDefault();
