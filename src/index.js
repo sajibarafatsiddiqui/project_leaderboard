@@ -78,4 +78,4 @@ const getData = async (e) => {
 const refreshButton = document.getElementById('get-btn');
 refreshButton.addEventListener('click', getData);
 
-showData(JSON.parse(localStorage.getItem('leads')));
+showData(JSON.parse(localStorage.getItem('leads')))
